@@ -1,4 +1,4 @@
-requests==2.28.1
+requests==2.32.2
 xmlrpc-client==1.0.2
 colored==1.5.4
 xmlrpc-client==1.0.2
