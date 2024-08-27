@@ -1,5 +1,9 @@
 # Ree_DoS_V3
 
+Notes: I updated this so use script.py and gui2.py if you have any issues with it please do a pull request to collab and get credit for fixing any issues to this thank you remember to subscribe to my youtube
+Youtube: https://www.youtube.com/stripped
+Contact: https://hackforums.net/member.php?action=profile&uid=1936352
+
 Overview
 
 Ree_DoS_V3 is an advanced network stress testing tool designed for both Layer 4 and Layer 7 attacks, as well as XML-RPC stress testing. This tool is built to impress and is suited for various security testing and network performance evaluations.
