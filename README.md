@@ -1,8 +1,8 @@
-# Ree_DoS_V2
+# Ree_DoS_V3
 
 Overview
 
-Ree_DoS_V2 is an advanced network stress testing tool designed for both Layer 4 and Layer 7 attacks, as well as XML-RPC stress testing. This tool is built to impress and is suited for various security testing and network performance evaluations.
+Ree_DoS_V3 is an advanced network stress testing tool designed for both Layer 4 and Layer 7 attacks, as well as XML-RPC stress testing. This tool is built to impress and is suited for various security testing and network performance evaluations.
 
 Features
 
@@ -14,12 +14,12 @@ Features
 
 Installation
 
-1. Clone the repository:
+1. Clone the repository
 
    git clone https://github.com/SleepTheGod/Ree_DoS_V3.git
-   cd Ree_DoS_V2
+   cd Ree_DoS_V3
 
-2. Install the required dependencies:
+2. Install the required dependencies
 
    pip install -r requirements.txt
 
@@ -27,37 +27,37 @@ Usage
 
 Command Line Interface
 
-- Chat Client Mode:
+- Chat Client Mode
 
   python main.py
 
-- Layer 7 Stress Testing:
+- Layer 7 Stress Testing
 
-  - GET DOS:
+  - GET DOS
 
     python main.py -t get http://example.com
 
-  - POST DOS:
+  - POST DOS
 
     python main.py -t post http://example.com
 
 - Layer 4 Stress Testing:
 
-  - TCP DOS:
+  - TCP DOS
 
     python main.py -l4 tcp 192.168.1.1 80
 
-  - UDP DOS:
+  - UDP DOS
 
     python main.py -l4 udp 192.168.1.1 80
 
-- XML-RPC Stress Testing:
+- XML-RPC Stress Testing
 
   python main.py -x http://example.com/RPC2 method_name param1 param2 ...
 
 GUI
 
-1. Start the GUI application:
+1. Start the GUI application
 
    python gui.py
 
