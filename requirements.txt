@@ -1,0 +1,6 @@
+requests==2.28.1
+xmlrpc-client==1.0.2
+colored==1.5.4
+xmlrpc-client==1.0.2
+lxml==4.9.2
+beautifulsoup4==4.12.2
