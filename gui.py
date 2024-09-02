@@ -68,7 +68,7 @@ class StressTestGUI(tk.Tk):
             messagebox.showerror("Error", "Please provide the necessary input data.")
 
     def run_script(self, target_ip=None, target_port=None, protocol=None, site=None, method_name=None, params=None, request_data=None):
-        cmd = [sys.executable, "advanced_stress_test.py"]
+        cmd = [sys.executable, "main.py"]
         if target_ip and target_port and protocol:
             cmd += ["-l4", protocol, target_ip, str(target_port)]
         elif site and method_name:
